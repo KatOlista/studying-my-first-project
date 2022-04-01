@@ -1,0 +1,53 @@
+.main {
+	&__top-elem {
+		top: 25px;
+		left: -29%;
+		width: 58%;
+	}
+
+	&__left-elem {
+		width: 15%;
+		margin: 1% auto 0;
+	}
+
+	&__left-picture-img {
+		margin: 0 -16% 0;
+	}
+
+	&__right-elem {
+		max-height: 500px;
+		width: 14%;
+		right: -14%;
+	}
+
+	&__right-picture-img {
+		margin: -174% 0 0 0;
+	}
+
+	&__bottom-elem {
+		left: -11%;
+		width: 11%;
+	}
+}
+.style-elems {
+	z-index: 2;
+	position: absolute;
+}
+
+.bg-img {
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	.main {
+		&__top-elem {
+			left: -19%;
+		}
+		&__left-elem {
+			width: 53%;
+		}
+		&__bottom-elem {
+			left: -2%;
+		}
+	}
+}

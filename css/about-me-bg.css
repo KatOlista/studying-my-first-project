@@ -1,0 +1,38 @@
+.main__top-elem {
+  right: 0;
+  width: 57%;
+}
+
+.main__left-elem {
+  width: 48%;
+  top: 7%;
+  right: 4%;
+}
+
+.main__right-elem {
+  width: 10%;
+  left: 95%;
+  top: -20%;
+}
+
+.main__bottom-elem {
+  left: -13%;
+  top: 52%;
+  width: 12%;
+}
+
+.style-elems {
+  z-index: 2;
+  position: absolute;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+@media (max-width: 1023px) {
+  .main__right-elem {
+    top: 0%;
+  }
+}
+/*# sourceMappingURL=about-me-bg.css.map */

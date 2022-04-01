@@ -1,0 +1,51 @@
+.main__top-elem {
+  top: 25px;
+  left: -29%;
+  width: 58%;
+}
+
+.main__left-elem {
+  width: 15%;
+  margin: 1% auto 0;
+}
+
+.main__left-picture-img {
+  margin: 0 -16% 0;
+}
+
+.main__right-elem {
+  max-height: 500px;
+  width: 14%;
+  right: -14%;
+}
+
+.main__right-picture-img {
+  margin: -174% 0 0 0;
+}
+
+.main__bottom-elem {
+  left: -11%;
+  width: 11%;
+}
+
+.style-elems {
+  z-index: 2;
+  position: absolute;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .main__top-elem {
+    left: -19%;
+  }
+  .main__left-elem {
+    width: 53%;
+  }
+  .main__bottom-elem {
+    left: -2%;
+  }
+}
+/*# sourceMappingURL=index-bg.css.map */

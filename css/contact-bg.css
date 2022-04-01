@@ -1,0 +1,49 @@
+.main__right-elem {
+  right: -18%;
+  top: 82%;
+  width: 28%;
+}
+
+.main__left-elem {
+  width: 16%;
+  left: 34%;
+  margin: 1% auto 0;
+}
+
+.main__left-picture-img {
+  margin: 0 -16% 0;
+}
+
+.main__bottom-elem {
+  left: 50%;
+  width: 30%;
+}
+
+.style-elems {
+  z-index: 2;
+  position: absolute;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .main__right-elem {
+    top: 85%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main__right-elem {
+    width: 22%;
+  }
+  .main__left-elem {
+    width: 30%;
+  }
+  .main__bottom-elem {
+    left: -31%;
+    width: 115%;
+  }
+}
+/*# sourceMappingURL=contact-bg.css.map */

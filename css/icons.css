@@ -1,0 +1,30 @@
+.logo__container {
+  max-width: 60px;
+}
+
+.logo__item {
+  width: 100%;
+}
+
+.logo__icon {
+  width: 100%;
+}
+
+@media (max-width: 1440px) {
+  .logo__container {
+    width: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .logo__container {
+    width: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo__container {
+    width: 30px;
+  }
+}
+/*# sourceMappingURL=icons.css.map */

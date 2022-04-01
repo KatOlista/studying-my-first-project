@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "Conv_HelveticaNeueLTPro-Lt";
+	src: url("../source/fonts/HelveticaNeueLTPro-Lt.eot");
+	src: local("☺"), url("../source/fonts/HelveticaNeueLTPro-Lt.woff") format("woff"),
+		url("../source/fonts/HelveticaNeueLTPro-Lt.ttf") format("truetype"),
+		url("../source/fonts/HelveticaNeueLTPro-Lt.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Conv_HelveticaNeueLTPro-Md";
+	src: url("../source/fonts/HelveticaNeueLTPro-Md.eot");
+	src: local("☺"), url("../source/fonts/HelveticaNeueLTPro-Md.woff") format("woff"),
+		url("../source/fonts/HelveticaNeueLTPro-Md.ttf") format("truetype"),
+		url("../source/fonts/HelveticaNeueLTPro-Md.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Antonio&family=Montserrat&family=Work+Sans:wght@700&display=swap");

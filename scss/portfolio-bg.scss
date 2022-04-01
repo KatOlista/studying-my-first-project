@@ -1,0 +1,43 @@
+.main {
+	&__top-elem {
+		left: 0;
+		width: 146%;
+	}
+
+	&__left-elem {
+		width: 24%;
+		top: 87%;
+		left: -13%;
+	}
+
+	&__right-elem {
+		width: 11%;
+		left: 26%;
+	}
+}
+.style-elems {
+	z-index: 2;
+	position: absolute;
+}
+
+.bg-img {
+	width: 100%;
+}
+
+@media (max-width: 767px) {
+	.main {
+		&__top-elem {
+			width: 100%;
+		}
+		&__left-elem {
+			width: 33%;
+			top: 97%;
+			left: -6%;
+		}
+		&__right-elem {
+			width: 17%;
+			top: 9%;
+			left: 92%;
+		}
+	}
+}

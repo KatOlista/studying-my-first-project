@@ -1,0 +1,41 @@
+.main__top-elem {
+  left: 0;
+  width: 146%;
+}
+
+.main__left-elem {
+  width: 24%;
+  top: 87%;
+  left: -13%;
+}
+
+.main__right-elem {
+  width: 11%;
+  left: 26%;
+}
+
+.style-elems {
+  z-index: 2;
+  position: absolute;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .main__top-elem {
+    width: 100%;
+  }
+  .main__left-elem {
+    width: 33%;
+    top: 97%;
+    left: -6%;
+  }
+  .main__right-elem {
+    width: 17%;
+    top: 9%;
+    left: 92%;
+  }
+}
+/*# sourceMappingURL=portfolio-bg.css.map */

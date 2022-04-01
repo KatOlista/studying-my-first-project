@@ -1,0 +1,55 @@
+.main__top-elem {
+  top: 18%;
+  left: 21%;
+  width: 128%;
+}
+
+.main__left-elem {
+  width: 17%;
+  left: -1%;
+  top: 90%;
+  margin: 1% auto 0;
+}
+
+.main__left-picture-img {
+  margin: 0 -16% 0;
+}
+
+.main__bottom-elem {
+  left: -16%;
+  top: 46%;
+  width: 21%;
+}
+
+.style-elems {
+  z-index: 2;
+  position: absolute;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main__left-elem {
+    top: 94%;
+  }
+}
+
+@media (max-width: 767px) {
+  .main__top-elem {
+    top: 18%;
+    left: -3%;
+    width: 169%;
+  }
+  .main__left-elem {
+    width: 31%;
+    left: 0.5%;
+    top: 56%;
+    top: 94%;
+  }
+  .main__bottom-elem {
+    width: 17%;
+  }
+}
+/*# sourceMappingURL=blog-bg.css.map */

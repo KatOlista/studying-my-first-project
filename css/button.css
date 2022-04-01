@@ -1,0 +1,24 @@
+button {
+  background: url("../source/img/button_01.png") center/115% 115% no-repeat;
+  margin: 0 0 0 3%;
+  padding: 3.1% 0;
+  cursor: pointer;
+  min-width: 130px;
+  min-height: 50px;
+  width: 25%;
+  border: 0px;
+  font-family: "Conv_HelveticaNeueLTPro-Md";
+  font-size: calc(13px + 10 * 100vw / 3840);
+  font-weight: 400;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: scale(120%);
+          transform: scale(120%);
+}
+/*# sourceMappingURL=button.css.map */
