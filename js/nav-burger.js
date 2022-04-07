@@ -17,7 +17,7 @@ document.addEventListener('click', function (event) {
 });
 
 document.addEventListener('keydown', function (event) {
-	if (event.code == 'Escape') {
+	if (event.code === 'Escape') {
 		burger.classList.remove('active');
 		navBody.classList.remove('active');
 		body.classList.remove('lock');
